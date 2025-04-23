@@ -4,21 +4,19 @@
  */
 
 class Car {
-    //instance variables
     private String make;
     private String model;
     private int year;
     private double price;
 
     /**
-     * Constructs a car object with a specific manufacturer, model, year built and price
+     * Constructs a car with a specific manufacturer, model, year built and price
      * @param make a String that represents the car's manufacturer
      * @param model a String that represents the car's model
      * @param year a integer that represents the year of when the car was built
      * @param price a double that represents the price of the car
      */
 
-    //constructor
     public Car(String make, String model, int year, double price){
         this.make = make;
         this.model = model;
@@ -27,8 +25,8 @@ class Car {
     }
 
     /**
-     * 
-     * @return returns the value of make, which tells you who is the manufacturer of the car
+     * Gets the car's manufacturer
+     * @return returns the value of make as a String representing the car's manufacturer
      */
 
     public String getMake(){
@@ -36,8 +34,8 @@ class Car {
     }
 
     /**
-     * 
-     * @return returns the value of model, which tells you the model of the car
+     * Gets the car's model
+     * @return returns the value of model as a String, which represents the model of the car
      */
 
     public String getModel(){
@@ -45,8 +43,8 @@ class Car {
     }
 
     /**
-     * 
-     * @return returns the value of year, which tells you what year the car was built
+     * Gets the year the car was produced
+     * @return returns the value of year as an integer that represents the year the car was built
      */
 
     public int getYear(){
@@ -54,8 +52,8 @@ class Car {
     }
 
     /**
-     * 
-     * @return returns the value of price, which tells you cost of the car
+     * Gets the price of the car
+     * @return returns the value of price as a double, which represents cost of the car
      */
 
     public double getPrice(){
@@ -63,8 +61,8 @@ class Car {
     }
 
     /**
-     * sets the value of the instance variable, make
-     * @param newMake a string that will replace the value of make
+     * Sets the car's manufacturer 
+     * @param newMake a String containing the car's manufacturer
      */
     
     public void setMake(String newMake){
@@ -72,8 +70,8 @@ class Car {
     }
 
     /**
-     * sets the value of the instance variable, model
-     * @param newModel a string that will replace the value of model
+     * Sets the car's model
+     * @param newModel a String containing the car's model
      */
 
     public void setModel(String newModel){
@@ -81,8 +79,9 @@ class Car {
     }
 
     /**
-     * sets the value of the instance variable, year
-     * @param newMake a integer that will replace the value of year if the integer is greater than zero
+     * Sets the year of when the car was produced
+     * @param newYear a integer containing the year that the car was produced
+     *                only if the value is greater than 0
      */
 
     public void setYear(int newYear){
@@ -92,8 +91,9 @@ class Car {
     }
 
     /**
-     * sets the value of the instance variable, price
-     * @param newPrice a double that will replace the value of price if the double is greater than or equal to zero
+     * Sets the price of the car
+     * @param newPrice a double containing the price of the car
+     *                  only if the double is greater than or equal to zero
      */
 
     public void setPrice(double newPrice){

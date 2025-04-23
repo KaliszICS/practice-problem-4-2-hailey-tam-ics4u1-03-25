@@ -5,19 +5,17 @@
 
 class Dog{
 
-//instance variables
 private String name;
 private String breed;
 private int weight;
 
 /**
- * Constructs a dog object with a specific name, breed, and weight
- * @param name a string that stores the dog's name
- * @param breed a string that stores the dog's breed
- * @param weight a integer that stores the dog's weight
+ * Constructs a dog with a specific name, breed, and weight
+ * @param name a string that represents the dog's name
+ * @param breed a string that represents the dog's breed
+ * @param weight a integer that represents the dog's weight in pounds
  */
 
- //constructor 
 public Dog(String name, String breed, int weight){
     this.name = name;
     this.breed = breed;
@@ -25,8 +23,8 @@ public Dog(String name, String breed, int weight){
 }
 
 /**
- * @return returns the value of name, which tells you the dog's name
- * 
+ * Gets the dog's name
+ * @return returns the value of name as a String, which represents the dog's name
  */
 
 public String getName(){
@@ -34,8 +32,8 @@ public String getName(){
 }
 
 /**
- * @return returns the value of breed, which tells you the dog's breed
- * 
+ * Gets the dog's breed
+ * @return returns the value of breed as a String, which represents the dog's breed
  */
 
 public String getBreed(){
@@ -43,8 +41,8 @@ public String getBreed(){
 }
 
 /**
- * @return returns the value of weight, which tell you the dog's weight
- * 
+ * Gets the dog's weight in pounds
+ * @return returns the value of weight as a integer, which represents the dog's weight in pounds
  */
 
 public int getWeight(){
@@ -52,8 +50,8 @@ public int getWeight(){
 }
 
 /**
- * sets the value of the instance variable, name
- * @param newName a String that will replace the value of name
+ * Sets the name of the dog
+ * @param newName a String that represents the dog's name
  */
 
 public void setName(String newName){
@@ -61,8 +59,8 @@ public void setName(String newName){
 }
 
 /**
- * sets the value of the instance variable, breed
- * @param newBreed a String that will replace the value of breed
+ * Sets the breed of the dog
+ * @param newBreed a String that represents the dog's breed 
  */
 
 public void setBreed(String newBreed){
@@ -70,8 +68,8 @@ public void setBreed(String newBreed){
 }
 
 /**
- * sets the value of the instance variable, weight
- * @param newWeight a integer that will replace the value of weight
+ * Sets the dog's weight in pounds
+ * @param newWeight a integer that represents the dog's weight in pounds
  */
 
 public void setWeight(int newWeight){
